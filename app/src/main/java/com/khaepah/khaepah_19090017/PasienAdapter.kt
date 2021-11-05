@@ -20,9 +20,9 @@ class PasienAdapter : RecyclerView.Adapter<PasienAdapter.Holder>() {
         "Anemia"
     )
     private var gambar = intArrayOf(
-        R.drawable.penyakit_jantung,
-        R.drawable.penyakit_asam_lambung,
-        R.drawable.penyakit_anemia
+        R.drawable.pasien_fahrizal,
+        R.drawable.pasien_rani,
+        R.drawable.pasien_desi
     )
 
     class Holder(view: View) : RecyclerView.ViewHolder(view) {
